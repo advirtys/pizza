@@ -1,0 +1,329 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 200px;
+}
+
+.logo {
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 140px;
+	float: left;
+}
+
+.slogan {
+	margin-top: 10px;
+	width: 500px;
+	float: left;
+}
+
+.slogan2 {
+	font: 24px Georgia;
+	color: #EA8634;
+}
+
+
+.slogan3 {
+	margin-top: 10px;
+	font: 18px Georgia;
+	color: #344C54;
+}
+
+.slogan3 span {
+	font: 14px Georgia;
+}
+
+.login {
+	margin-top: 10px;
+	width: 200px;
+	float: left;
+}
+
+.login_p {
+	margin-top: 5px;
+	font: 13px Tahoma;
+	color: #344C54;
+}
+
+.login_p a {
+	margin-left: 5px;
+	font: 14px Georgia;
+	color: #EA8634;
+}
+
+.locale {
+	margin-top: 5px;
+}
+
+.nav {
+	float: left;
+	margin-top: 10px;
+	height: 40px;
+	width: 1000px;
+	background-color: #EDEDE8;
+	border-top: 1px solid #C5C5C5;
+	border-right: 1px solid #C5C5C5;
+	border-bottom: 1px solid #C5C5C5;
+}
+
+.nav li {
+	float: left;
+	width: 165px;
+	height: 40px;
+	text-align: center;
+	border-left: 1px solid #C5C5C5;
+}
+
+.nav li a {
+	position: relative;
+	top: 8px;
+	font: 17px Georgia;
+	color: #292929;
+	text-decoration: none;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 100px;
+}
+
+.h1_title {
+	padding-bottom: 10px;
+	font: 24px Georgia;
+	border-bottom: 1px solid #D6D6D6;
+	color: #344C54;
+	width: 1000px;
+}
+
+/* Product
+--------------------------------------------------------------------------------*/
+
+.product {
+	float: left;
+	width: 250px;
+}
+
+.product img {
+	margin-left: 20px;
+}
+
+.product h2 {
+	font: 20px Georgia;
+	color: #EA8634;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.price {
+	font: 16px Georgia;
+	color: #292929;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.desc {
+	font: 16px Georgia;
+	color: #727272;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.desc span {
+	font: 13px Georgia;
+	position: relative;
+	top: 3px;
+}
+
+.desc2 {
+	font: 14px Georgia;
+	color: #727272;
+	height: 100px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.product_btn {
+	position: relative;
+	left: 50px;
+	margin-bottom: 10px;
+	width: 150px;
+	height: 30px;
+	font: 16px Georgia;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	background-color: #93C243;
+	border: 1px solid #FFFFFF;
+}
+
+.product_bloc {
+	height: 500px;
+	clear: left;
+}
+
+/* Register
+-----------------------------------------------------------------------------*/
+
+.validate_r {
+	color: red;
+}
+
+
+/* Contacts
+-----------------------------------------------------------------------------*/
+
+.content2 {
+
+}
+
+.content2 p {
+	font: 16px Georgia;
+	line-height: 1.5;
+	color: #727272;
+}
+
+.content2 .blue {
+	font: 18px Georgia;
+	color: #344C54;
+}
+
+.content2 .blue2 {
+	font: 14px Georgia;
+	color: #344C54;
+}
+
+.content2 table th,
+.content2 table td {
+	padding: 0 5px 0 5px;
+	text-align: center;
+}
+
+.content2 table td {
+	font: 14px Georgia;
+	line-height: 1.5;
+}
+
+.amount {
+	margin-top: 40px;
+	width: 500px;
+	border-top: 1px dotted #D6D6D6;
+	margin-bottom: 20px;
+}
+
+.amount span {
+	margin-left: 100px;
+}
+
+
+/* Control panel
+--------------------------------------------------------------------------------*/
+
+
+
+.control th p {
+	font: 18px Georgia;
+	line-height: 1.5;
+	color: #727272;
+}
+
+.control td p {
+	font: 16px Georgia;
+	line-height: 1.5;
+	color: #727272;
+	padding-right: 40px;
+}
+
+.control td input {
+	margin-left: 50px;
+}
+
+	/* Footer
+    -----------------------------------------------------------------------------*/
+.footer {
+	clear: left;
+	width: 1000px;
+	margin: -100px auto 0;
+	height: 100px;
+	position: relative;
+	border-top: 1px dotted #D6D6D6;
+}
+
+.company {
+	margin-top: 10px;
+	font: 14px Georgia;
+	color: #C5C5C5;
+}
+
+.slogan4 {
+	margin-top: 10px;
+	font: 18px Georgia;
+	color: #727272;
+}

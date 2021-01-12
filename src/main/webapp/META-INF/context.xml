@@ -1,0 +1,15 @@
+<Context path="/">
+    <Resource
+            url="jdbc:mysql://localhost:3306/pizza"
+            connectionProperties="useUnicode=yes;characterEncoding=utf8;"
+            name="jdbc/pizza"
+            auth="Container"
+            type="javax.sql.DataSource"
+            maxActive="100"
+            maxIdle="30"
+            maxWait="10000"
+            username="user"
+            password="123"
+            driverClassName="com.mysql.jdbc.Driver"
+    />
+</Context>
